@@ -1,5 +1,5 @@
 # Hearthian Fishing
-Do you ever have a terrible idea that you just can't shake? As in, you know it will be dumb and silly, but you just have to see it through? That's Hearthian Fishing. Help Spinel catalogue fish on Timber Hearth!
+Do you ever have a terrible idea that you just can't shake? As in, you know it will be dumb and silly, but you just have to see it through? That's Hearthian Fishing. Help Spinel catalog fish on Timber Hearth!
 
 This mod is a unofficial addon for Outer Wilds. It is designed for players that have already completed the main story. Contains spoilers for the base game. Note: This is an addon for xen's [New Horizons](https://outerwildsmods.com/mods/newhorizons/) mod. It also makes use of the [Traveler's Pack](https://outerwildsmods.com/mods/travelerspack/) mod.
 
