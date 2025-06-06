@@ -1,0 +1,150 @@
+{
+    "$schema": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/star_system_schema.json",
+    "entryPositions": [
+        {
+            "id": "SPINEL_FISHING_ADVENTURE",
+            "position": {
+                "x": 4000,
+                "y": 1000
+            }
+        },
+        {
+            "id": "LINE_UPGRADE",
+            "position": {
+                "x": 3900,
+                "y": 850
+            }
+        },
+        {
+            "id": "MARSHMALLOW_BAIT",
+            "position": {
+                "x": 4250,
+                "y": 1000
+            }
+        },
+        {
+            "id": "SAP_WINE_BAIT",
+            "position": {
+                "x": 4400,
+                "y": 1000
+            }
+        },
+        {
+            "id": "SHINY_ROCK_BAIT",
+            "position": {
+                "x": 4550,
+                "y": 1000
+            }
+        },
+        {
+            "id": "TIMBER_HEARTH_FISH",
+            "position": {
+                "x": 4000,
+                "y": 500
+            }
+        },
+        {
+            "id": "HEARTHIAN_BASS",
+            "position": {
+                "x": 3900,
+                "y": 250
+            }
+        },
+        {
+            "id": "TIMBER_MACKEREL",
+            "position": {
+                "x": 4000,
+                "y": 250
+            }
+        },
+        {
+            "id": "ANCESTRAL_SALMON",
+            "position": {
+                "x": 4100,
+                "y": 250
+            }
+        },
+        {
+            "id": "PINE_MULLET",
+            "position": {
+                "x": 3850,
+                "y": 100
+            }
+        },
+        {
+            "id": "WARPING_COD",
+            "position": {
+                "x": 3950,
+                "y": 100
+            }
+        },
+        {
+            "id": "EERIE_EEL",
+            "position": {
+                "x": 4050,
+                "y": 100
+            }
+        },
+        {
+            "id": "SPARKLING_STONEFISH",
+            "position": {
+                "x": 4150,
+                "y": 100
+            }
+        },
+        {
+            "id": "WATERFALL_FISHING_SPOT",
+            "position": {
+                "x": 4250,
+                "y": 500
+            }
+        },
+        {
+            "id": "GROVE_FISHING_SPOT",
+            "position": {
+                "x": 4400,
+                "y": 500
+            }
+        },
+        {
+            "id": "MINE_FISHING_SPOT",
+            "position": {
+                "x": 4550,
+                "y": 500
+            }
+        }
+    ],
+    "initialReveal": [ "SPINEL_QUEST_RUMOR" ],
+    "curiosities": [
+        {
+            "id": "SPINEL_FISHING_ADVENTURE",
+            "color": {
+                "r": 51,
+                "g": 153,
+                "b": 255,
+                "a": 255
+            },
+            "highlightColor": {
+                "r": 128,
+                "g": 191,
+                "b": 255,
+                "a": 255
+            }
+        },
+        {
+            "id": "TIMBER_HEARTH_FISH",
+            "color": {
+                "r": 55,
+                "g": 173,
+                "b": 49,
+                "a": 255
+            },
+            "highlightColor": {
+                "r": 92,
+                "g": 179,
+                "b": 87,
+                "a": 255
+            }
+        }
+    ]
+}

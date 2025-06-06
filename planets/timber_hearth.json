@@ -1,0 +1,435 @@
+{
+	"$schema": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name": "TIMBER_HEARTH",
+	"AmbientLights": [
+		{
+			"outerRadius": 0.8,
+			"innerRadius": 0.25,
+			"intensity": 1.0,
+			"tint": {
+				"r": 92,
+				"g": 187,
+				"b": 255,
+				"a": 255
+			},
+			"position": {
+				"x": 15.53614,
+				"y": -41.12362,
+				"z": 185.7374
+			}
+		},
+		{
+			"outerRadius": 0.8,
+			"innerRadius": 0.25,
+			"intensity": 1.0,
+			"tint": {
+				"r": 92,
+				"g": 187,
+				"b": 255,
+				"a": 255
+			},
+			"position": {
+				"x": 4.779891,
+				"y": -22.08247,
+				"z": 186.9695
+			}
+		},
+		{
+			"outerRadius": 0.8,
+			"innerRadius": 0.25,
+			"intensity": 1.0,
+			"tint": {
+				"r": 92,
+				"g": 187,
+				"b": 255,
+				"a": 255
+			},
+			"position": {
+				"x": -79.08317,
+				"y": 126.7007,
+				"z": -159.2285
+			}
+		},
+		{
+			"outerRadius": 0.8,
+			"innerRadius": 0.25,
+			"intensity": 1.0,
+			"tint": {
+				"r": 255,
+				"g": 252,
+				"b": 61,
+				"a": 255
+			},
+			"position": {
+				"x": -26.12692,
+				"y": 26.2332,
+				"z": 191.9322
+			}
+		},
+		{
+			"outerRadius": 0.8,
+			"innerRadius": 0.25,
+			"intensity": 1.0,
+			"tint": {
+				"r": 255,
+				"g": 252,
+				"b": 61,
+				"a": 255
+			},
+			"position": {
+				"x": -18.3184,
+				"y": -191.2663,
+				"z": -16.39848
+			}
+		},
+		{
+			"outerRadius": 0.8,
+			"innerRadius": 0.25,
+			"intensity": 1.0,
+			"tint": {
+				"r": 255,
+				"g": 252,
+				"b": 61,
+				"a": 255
+			},
+			"position": {
+				"x": -101.432,
+				"y": 130.363,
+				"z": -140.0827
+			}
+		}
+	],
+	"Props": {
+		"details": [
+			{
+				"rename": "Marshmallows",
+				"path": "TimberHearth_Body/Sector_TH/Sector_Village/Sector_StartingCamp/Props_StartingCamp/OtherComponentsGroup/Props_HEA_CampsiteLogAssets/Props_HEA_MarshmallowCanOpened",
+				"position": {
+					"x": 15.53614,
+					"y": -41.12362,
+					"z": 185.7374
+				},
+				"alignRadial": true,
+				"item": {
+					"name": "Marshmallows",
+					"itemType": "Fishing Bait",
+					"interactRange": 1.5,
+					"colliderRadius": 0.5,
+					"droppable": true,
+					"dropOffset": {
+						"x": 0,
+						"y": 0,
+						"z": 0
+					},
+					"dropNormal": {
+						"x": 0,
+						"y": 1,
+						"z": 0
+					},
+					"holdOffset": {
+						"x": 0,
+						"y": -0.3,
+						"z": 0
+					},
+					"holdRotation": {
+						"x": 0,
+						"y": 45,
+						"z": 0
+					},
+					"pickupAudio": "ToolItemScrollPickUp",
+					"dropAudio": "ToolItemScrollDrop",
+					"pickupCondition": "HOLDING_MARSHMALLOW_BAIT",
+					"clearPickupConditionOnDrop": true,
+					"pickupFact": "MARSHMALLOW_BAIT_FACT"
+				}
+			},
+			{
+				"rename": "Sap Wine",
+				"path": "TimberHearth_Body/Sector_TH/Sector_Village/Sector_StartingCamp/Props_StartingCamp/OtherComponentsGroup/Props_HEA_CampsiteTableSetting/Props_HEA_Flask1",
+				"position": {
+					"x": 4.779891,
+					"y": -22.08247,
+					"z": 186.9695
+				},
+				"alignRadial": true,
+				"item": {
+					"name": "Sap Wine",
+					"itemType": "Fishing Bait",
+					"interactRange": 1.5,
+					"colliderRadius": 0.5,
+					"droppable": true,
+					"dropOffset": {
+						"x": 0,
+						"y": 0,
+						"z": 0
+					},
+					"dropNormal": {
+						"x": 0,
+						"y": 1,
+						"z": 0
+					},
+					"holdOffset": {
+						"x": 0,
+						"y": -0.1,
+						"z": 0
+					},
+					"holdRotation": {
+						"x": 342.6,
+						"y": 287.8,
+						"z": 12.3
+					},
+					"pickupAudio": "ToolItemScrollPickUp",
+					"dropAudio": "ToolItemScrollDrop",
+					"pickupCondition": "HOLDING_SAP_WINE_BAIT",
+					"clearPickupConditionOnDrop": true,
+					"pickupFact": "SAP_WINE_BAIT_FACT"
+				}
+			},
+			{
+				"rename": "Shiny Rocks",
+				"path": "BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_BlackHoleForge/BlackHoleForgePivot/Props_BlackHoleForge/Prefab_NOM_VaseThick",
+				"position": {
+					"x": -79.08317,
+					"y": 126.7007,
+					"z": -159.2285
+				},
+				"alignRadial": true,
+				"item": {
+					"name": "Shiny Rocks",
+					"itemType": "Fishing Bait",
+					"interactRange": 1.5,
+					"colliderRadius": 1.0,
+					"droppable": true,
+					"dropOffset": {
+						"x": 0,
+						"y": 0,
+						"z": 0
+					},
+					"dropNormal": {
+						"x": 0,
+						"y": 1,
+						"z": 0
+					},
+					"holdOffset": {
+						"x": 0.1,
+						"y": -0.5,
+						"z": 0
+					},
+					"holdRotation": {
+						"x": 0,
+						"y": 45,
+						"z": 0
+					},
+					"pickupAudio": "ToolItemScrollPickUp",
+					"dropAudio": "ToolItemScrollDrop",
+					"pickupCondition": "HOLDING_SHINY_ROCK_BAIT",
+					"clearPickupConditionOnDrop": true,
+					"pickupFact": "SHINY_ROCK_BAIT_FACT"
+				}
+			},
+			{
+				"rename": "Waterfall Tacklebox",
+				"path": "TimberHearth_Body/Sector_TH/Sector_Village/Sector_StartingCamp/Props_StartingCamp/OtherComponentsGroup/Props_HEA_CampsiteTableSetting/Props_HEA_WoodenCrate2",
+				"position": {
+					"x": -26.12692,
+					"y": 26.2332,
+					"z": 191.9322
+				},
+				"rotation": {
+					"x": 24.24795,
+					"y": 267.9308,
+					"z": 280.984
+				},
+				"scale": 1.5
+			},
+			{
+				"rename": "Waterfall Fishing Rod",
+				"path": "TimberHearth_Body/Sector_TH/Sector_Village/Sector_LowerVillage/Characters_LowerVillage/Villager_HEA_Spinel/Villager_HEA_Spinel_ANIM_Fishing/Villager_HEA_Spinel_ANIM_Fishing_ROD",
+				"isRelativeToParent": true,
+				"parentPath": "Sector_TH/Waterfall Tacklebox",
+				"position": {
+					"x": 0,
+					"y": -0.5,
+					"z": 0
+				},
+				"rotation": {
+					"x": 6.2,
+					"y": 295,
+					"z": 347.6
+				},
+				"alignRadial": true
+			},
+			{
+				"rename": "Grove Tacklebox",
+				"path": "TimberHearth_Body/Sector_TH/Sector_Village/Sector_StartingCamp/Props_StartingCamp/OtherComponentsGroup/Props_HEA_CampsiteTableSetting/Props_HEA_WoodenCrate2",
+				"position": {
+					"x": -18.3184,
+					"y": -191.2663,
+					"z": -16.39848
+				},
+				"rotation": {
+					"x": 0.1917519,
+					"y": 139.2278,
+					"z": 187.5604
+				},
+				"scale": 1.5
+			},
+			{
+				"rename": "Grove Fishing Rod",
+				"path": "TimberHearth_Body/Sector_TH/Sector_Village/Sector_LowerVillage/Characters_LowerVillage/Villager_HEA_Spinel/Villager_HEA_Spinel_ANIM_Fishing/Villager_HEA_Spinel_ANIM_Fishing_ROD",
+				"isRelativeToParent": true,
+				"parentPath": "Sector_TH/Grove Tacklebox",
+				"position": {
+					"x": 0,
+					"y": -0.5,
+					"z": 0
+				},
+				"rotation": {
+					"x": 9.4749,
+					"y": 63.776,
+					"z": 353.9595
+				},
+				"alignRadial": true
+			},
+			{
+				"rename": "Mine Tacklebox",
+				"path": "TimberHearth_Body/Sector_TH/Sector_Village/Sector_StartingCamp/Props_StartingCamp/OtherComponentsGroup/Props_HEA_CampsiteTableSetting/Props_HEA_WoodenCrate2",
+				"position": {
+					"x": -101.471,
+					"y": 130.4153,
+					"z": -140.0037
+				},
+				"rotation": {
+					"x": 322.034,
+					"y": 345.2529,
+					"z": 33.98081
+				},
+				"scale": 1.5
+			},
+			{
+				"rename": "Mine Fishing Rod",
+				"path": "TimberHearth_Body/Sector_TH/Sector_Village/Sector_LowerVillage/Characters_LowerVillage/Villager_HEA_Spinel/Villager_HEA_Spinel_ANIM_Fishing/Villager_HEA_Spinel_ANIM_Fishing_ROD",
+				"isRelativeToParent": true,
+				"parentPath": "Sector_TH/Mine Tacklebox",
+				"position": {
+					"x": 0,
+					"y": -0.5,
+					"z": 0
+				},
+				"rotation": {
+					"x": 0,
+					"y": 0,
+					"z": 0
+				},
+				"alignRadial": true
+			}
+		],
+		"dialogue": [
+			{
+				"pathToExistingDialogue": "Sector_TH/Sector_Village/Sector_LowerVillage/Characters_LowerVillage/Villager_HEA_Spinel/ConversationZone",
+				"xmlFile": "planets/dialogue/Spinel.xml"
+			},
+			{
+				"rename": "Waterfall Fishing Spot",
+				"isRelativeToParent": true,
+				"parentPath": "Sector_TH/Waterfall Tacklebox",
+				"position": {
+					"x": 0,
+					"y": 0.5,
+					"z": 0
+				},
+				"radius": 0.5,
+				"range": 1.5,
+				"xmlFile": "planets/dialogue/WaterfallFishingSpot.xml"
+			},
+			{
+				"rename": "Grove Fishing Spot",
+				"isRelativeToParent": true,
+				"parentPath": "Sector_TH/Grove Tacklebox",
+				"position": {
+					"x": 0,
+					"y": 0.5,
+					"z": 0
+				},
+				"radius": 0.5,
+				"range": 1.5,
+				"xmlFile": "planets/dialogue/GroveFishingSpot.xml"
+			},
+			{
+				"rename": "Mine Fishing Spot",
+				"isRelativeToParent": true,
+				"parentPath": "Sector_TH/Mine Tacklebox",
+				"position": {
+					"x": 0,
+					"y": 0.5,
+					"z": 0
+				},
+				"radius": 0.5,
+				"range": 1.5,
+				"xmlFile": "planets/dialogue/MineFishingSpot.xml"
+			}
+		],
+		"entryLocation": [
+			{
+				"id": "SPINEL_FISHING_ADVENTURE",
+				"position": {
+					"x": 8.6008,
+					"y": -2.3495,
+					"z": -31.7752
+				}
+			},
+			{
+				"id": "MARSHMALLOW_BAIT",
+				"position": {
+					"x": 15.53614,
+					"y": -41.12362,
+					"z": 185.7374
+				}
+			},
+			{
+				"id": "SAP_WINE_BAIT",
+				"position": {
+					"x": 4.779891,
+					"y": -22.08247,
+					"z": 186.9695
+				}
+			},
+			{
+				"id": "SHINY_ROCK_BAIT",
+				"position": {
+					"x": -79.08317,
+					"y": 126.7007,
+					"z": -159.2285
+				}
+			},
+			{
+				"id": "WATERFALL_FISHING_SPOT",
+				"position": {
+					"x": -27.08846,
+					"y": 26.86057,
+					"z": 191.6662
+				}
+			},
+			{
+				"id": "GROVE_FISHING_SPOT",
+				"position": {
+					"x": -15.32797,
+					"y": -191.8041,
+					"z": -16.88569
+				}
+			},
+			{
+				"id": "MINE_FISHING_SPOT",
+				"position": {
+					"x": -101.471,
+					"y": 130.4153,
+					"z": -140.0037
+				}
+			}
+		]
+	},
+	"ShipLog": {
+		"spriteFolder": "planets/shiplog/sprites",
+		"xmlFile": "planets/shiplog/Timber_Hearth.xml"
+	}
+}

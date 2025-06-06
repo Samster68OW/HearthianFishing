@@ -1,0 +1,350 @@
+<AstroObjectEntry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/shiplog_schema.xsd">
+    <ID>TIMBER_HEARTH</ID>
+
+
+    <Entry> <!-- An Entry For This Planet -->
+        <ID>SPINEL_FISHING_ADVENTURE</ID> <!-- The ID of this entry -->
+        <Name>Spinel's Fishing Adventure</Name> <!-- The name to show for this entry both on the card and in map mode -->
+        <Curiosity>SPINEL_FISHING_ADVENTURE</Curiosity> <!-- The curiosity this entry belongs to (optional) in this case, it belongs to itself -->
+        <IsCuriosity/> <!-- Marks this entry as a curiosity, makes it bigger in rumor mode and allows custom colors -->
+
+        <RumorFact>
+            <ID>SPINEL_QUEST_RUMOR</ID>
+            <SourceID>TH_VILLAGE</SourceID>
+            <RumorName>Spinel's Quest</RumorName>
+            <Text>I want to chat with Spinel about fishing. However, if I want to talk to them, I should avoid making them mad at me.</Text>
+        </RumorFact>
+
+        <ExploreFact>
+            <ID>SPINEL_ADVENTURE_FACT_ONE</ID>
+            <Text>Spinel has decided to teach me how to fish!</Text>
+        </ExploreFact>
+	    <ExploreFact>
+		    <ID>SPINEL_ADVENTURE_FACT_TWO</ID>
+		    <Text>First, I need to find a fishing spot with a fishing rod.</Text>
+	    </ExploreFact>
+	    <ExploreFact>
+		    <ID>SPINEL_ADVENTURE_FACT_THREE</ID>
+		    <Text>Second, I need to bring bait and use it on the fishing rod.</Text>
+	    </ExploreFact>
+	    <ExploreFact>
+		    <ID>SPINEL_ADVENTURE_FACT_FOUR</ID>
+		    <Text>Finally, I cast my line in the water and hope for a bite!</Text>
+	    </ExploreFact>
+		<ExploreFact>
+			<ID>SPINEL_ADVENTURE_FACT_QUEST</ID>
+			<Text>I found all of the fish on Timber Hearth! Spinel was very thankful. (This is where the demo ends.)</Text>
+		</ExploreFact>
+
+
+		<Entry>
+			<ID>LINE_UPGRADE</ID>
+			<Name>Line Upgrade</Name>
+			<Curiosity>SPINEL_FISHING_ADVENTURE</Curiosity>
+
+			<ExploreFact>
+				<ID>LINE_UPGRADE_FACT</ID>
+				<Text>Spinel upgraded my fishing rod with a longer fishing line. I can now fish at 5 meters.</Text>
+			</ExploreFact>
+		</Entry>
+    </Entry>
+
+	
+	<Entry>
+		<ID>MARSHMALLOW_BAIT</ID>
+		<Name>Marshmallows</Name>
+		<Curiosity>SPINEL_FISHING_ADVENTURE</Curiosity>
+
+		<RumorFact>
+			<ID>MARSHMALLOW_BAIT_RUMOR</ID>
+			<SourceID>SPINEL_FISHING_ADVENTURE</SourceID>
+			<RumorName>BAIT_RUMOR_NAME</RumorName>
+			<Text>Spinel said that there is some bait in the Village. I wonder if I can find something at the Campsite.</Text>
+		</RumorFact>
+
+		<ExploreFact>
+			<ID>MARSHMALLOW_BAIT_FACT</ID>
+			<Text>I found a can of marshmallows at Slate's Campsite that will make great fish bait.</Text>
+		</ExploreFact>
+	</Entry>
+
+
+	<Entry>
+		<ID>SAP_WINE_BAIT</ID>
+		<Name>Sap Wine</Name>
+		<Curiosity>SPINEL_FISHING_ADVENTURE</Curiosity>
+
+		<RumorFact>
+			<ID>SAP_WINE_BAIT_RUMOR</ID>
+			<SourceID>SPINEL_FISHING_ADVENTURE</SourceID>
+			<RumorName>BAIT_RUMOR_NAME</RumorName>
+			<Text>Spinel said that there is some bait in the Village. I wonder if I can find something in the Lower Village.</Text>
+		</RumorFact>
+
+		<ExploreFact>
+			<ID>SAP_WINE_BAIT_FACT</ID>
+			<Text>I found a small flask of sap wine. I can use it as bait by coating my hook in it.</Text>
+		</ExploreFact>
+	</Entry>
+
+
+	<Entry>
+		<ID>SHINY_ROCK_BAIT</ID>
+		<Name>Shiny Rock</Name>
+		<Curiosity>SPINEL_FISHING_ADVENTURE</Curiosity>
+
+		<RumorFact>
+			<ID>SHINY_ROCK_BAIT_RUMOR</ID>
+			<SourceID>SPINEL_FISHING_ADVENTURE</SourceID>
+			<RumorName>BAIT_RUMOR_NAME</RumorName>
+			<Text>Spinel's notes say there may be additional bait underground.</Text>
+		</RumorFact>
+
+		<ExploreFact>
+			<ID>SHINY_ROCK_BAIT_FACT</ID>
+			<Text>I found a Nomai box full of shiny rocks. Fish in dark areas are attracted to its shimmer.</Text>
+		</ExploreFact>
+	</Entry>
+
+
+	<Entry>
+		<ID>TIMBER_HEARTH_FISH</ID>
+		<Name>Timber Hearth Fish</Name>
+		<Curiosity>TIMBER_HEARTH_FISH</Curiosity>
+		<IsCuriosity/>
+
+		<RumorFact>
+			<ID>TH_FISHING_RUMOR</ID>
+			<SourceID>SPINEL_FISHING_ADVENTURE</SourceID>
+			<RumorName>Timber Hearth Fish?</RumorName>
+			<Text>I wonder what fish I can catch on Timber Hearth.</Text>
+		</RumorFact>
+
+		<ExploreFact>
+			<ID>TH_FISHING_FACT</ID>
+			<Text>There are lots of fish to catch on Timber Hearth! Spinel said that they want me to catch them all.</Text>
+		</ExploreFact>
+
+		
+		<Entry>
+			<ID>HEARTHIAN_BASS</ID>
+			<Name>HEARTHIAN_BASS_NAME</Name>
+			<Curiosity>TIMBER_HEARTH_FISH</Curiosity>
+
+			<RumorFact>
+				<ID>HEARTHIAN_BASS_RUMOR</ID>
+				<SourceID>TIMBER_HEARTH_FISH</SourceID>
+				<RumorName>FISH_RUMOR_NAME</RumorName>
+				<Text>HEARTHIAN_BASS_RUMOR_TEXT</Text>
+			</RumorFact>
+
+			<ExploreFact>
+				<ID>HEARTHIAN_BASS_CAUGHT_FACT</ID>
+				<Text>HEARTHIAN_BASS_CAUGHT_FACT_TEXT</Text>
+			</ExploreFact>
+			<ExploreFact>
+				<ID>HEARTHIAN_BASS_STATS_FACT</ID>
+				<Text>HEARTHIAN_BASS_STATS_FACT_TEXT</Text>
+			</ExploreFact>
+		</Entry>
+
+
+		<Entry>
+			<ID>TIMBER_MACKEREL</ID>
+			<Name>TIMBER_MACKEREL_NAME</Name>
+			<Curiosity>TIMBER_HEARTH_FISH</Curiosity>
+
+			<RumorFact>
+				<ID>TIMBER_MACKEREL_RUMOR</ID>
+				<SourceID>TIMBER_HEARTH_FISH</SourceID>
+				<RumorName>FISH_RUMOR_NAME</RumorName>
+				<Text>TIMBER_MACKEREL_RUMOR_TEXT</Text>
+			</RumorFact>
+
+			<ExploreFact>
+				<ID>TIMBER_MACKEREL_CAUGHT_FACT</ID>
+				<Text>TIMBER_MACKEREL_CAUGHT_FACT_TEXT</Text>
+			</ExploreFact>
+			<ExploreFact>
+				<ID>TIMBER_MACKEREL_STATS_FACT</ID>
+				<Text>TIMBER_MACKEREL_STATS_FACT_TEXT</Text>
+			</ExploreFact>
+		</Entry>
+
+
+		<Entry>
+			<ID>ANCESTRAL_SALMON</ID>
+			<Name>ANCESTRAL_SALMON_NAME</Name>
+			<Curiosity>TIMBER_HEARTH_FISH</Curiosity>
+
+			<RumorFact>
+				<ID>ANCESTRAL_SALMON_RUMOR</ID>
+				<SourceID>TIMBER_HEARTH_FISH</SourceID>
+				<RumorName>FISH_RUMOR_NAME</RumorName>
+				<Text>ANCESTRAL_SALMON_RUMOR_TEXT</Text>
+			</RumorFact>
+
+			<ExploreFact>
+				<ID>ANCESTRAL_SALMON_CAUGHT_FACT</ID>
+				<Text>ANCESTRAL_SALMON_CAUGHT_FACT_TEXT</Text>
+			</ExploreFact>
+			<ExploreFact>
+				<ID>ANCESTRAL_SALMON_STATS_FACT</ID>
+				<Text>ANCESTRAL_SALMON_STATS_FACT_TEXT</Text>
+			</ExploreFact>
+		</Entry>
+
+
+		<Entry>
+			<ID>PINE_MULLET</ID>
+			<Name>PINE_MULLET_NAME</Name>
+			<Curiosity>TIMBER_HEARTH_FISH</Curiosity>
+
+			<RumorFact>
+				<ID>PINE_MULLET_RUMOR</ID>
+				<SourceID>TIMBER_HEARTH_FISH</SourceID>
+				<RumorName>FISH_RUMOR_NAME</RumorName>
+				<Text>PINE_MULLET_RUMOR_TEXT</Text>
+			</RumorFact>
+
+			<ExploreFact>
+				<ID>PINE_MULLET_CAUGHT_FACT</ID>
+				<Text>PINE_MULLET_CAUGHT_FACT_TEXT</Text>
+			</ExploreFact>
+			<ExploreFact>
+				<ID>PINE_MULLET_STATS_FACT</ID>
+				<Text>PINE_MULLET_STATS_FACT_TEXT</Text>
+			</ExploreFact>
+		</Entry>
+
+
+		<Entry>
+			<ID>WARPING_COD</ID>
+			<Name>WARPING_COD_NAME</Name>
+			<Curiosity>TIMBER_HEARTH_FISH</Curiosity>
+
+			<RumorFact>
+				<ID>WARPING_COD_RUMOR</ID>
+				<SourceID>TIMBER_HEARTH_FISH</SourceID>
+				<RumorName>FISH_RUMOR_NAME</RumorName>
+				<Text>WARPING_COD_RUMOR_TEXT</Text>
+			</RumorFact>
+
+			<ExploreFact>
+				<ID>WARPING_COD_CAUGHT_FACT</ID>
+				<Text>WARPING_COD_CAUGHT_FACT_TEXT</Text>
+			</ExploreFact>
+			<ExploreFact>
+				<ID>WARPING_COD_STATS_FACT</ID>
+				<Text>WARPING_COD_STATS_FACT_TEXT</Text>
+			</ExploreFact>
+		</Entry>
+
+
+		<Entry>
+			<ID>EERIE_EEL</ID>
+			<Name>EERIE_EEL_NAME</Name>
+			<Curiosity>TIMBER_HEARTH_FISH</Curiosity>
+
+			<RumorFact>
+				<ID>EERIE_EEL_RUMOR</ID>
+				<SourceID>TIMBER_HEARTH_FISH</SourceID>
+				<RumorName>FISH_RUMOR_NAME</RumorName>
+				<Text>EERIE_EEL_RUMOR_TEXT</Text>
+			</RumorFact>
+
+			<ExploreFact>
+				<ID>EERIE_EEL_CAUGHT_FACT</ID>
+				<Text>EERIE_EEL_CAUGHT_FACT_TEXT</Text>
+			</ExploreFact>
+			<ExploreFact>
+				<ID>EERIE_EEL_STATS_FACT</ID>
+				<Text>EERIE_EEL_STATS_FACT_TEXT</Text>
+			</ExploreFact>
+		</Entry>
+
+
+		<Entry>
+			<ID>SPARKLING_STONEFISH</ID>
+			<Name>SPARKLING_STONEFISH_NAME</Name>
+			<Curiosity>TIMBER_HEARTH_FISH</Curiosity>
+
+			<RumorFact>
+				<ID>SPARKLING_STONEFISH_RUMOR</ID>
+				<SourceID>TIMBER_HEARTH_FISH</SourceID>
+				<RumorName>FISH_RUMOR_NAME</RumorName>
+				<Text>SPARKLING_STONEFISH_RUMOR_TEXT</Text>
+			</RumorFact>
+
+			<ExploreFact>
+				<ID>SPARKLING_STONEFISH_CAUGHT_FACT</ID>
+				<Text>SPARKLING_STONEFISH_CAUGHT_FACT_TEXT</Text>
+			</ExploreFact>
+			<ExploreFact>
+				<ID>SPARKLING_STONEFISH_STATS_FACT</ID>
+				<Text>SPARKLING_STONEFISH_STATS_FACT_TEXT</Text>
+			</ExploreFact>
+		</Entry>
+		
+	
+	</Entry>
+
+
+	<Entry>
+		<ID>WATERFALL_FISHING_SPOT</ID>
+		<Name>Waterfall Fishing Spot</Name>
+		<Curiosity>TIMBER_HEARTH_FISH</Curiosity>
+
+		<RumorFact>
+			<ID>WATERFALL_FISHING_SPOT_RUMOR</ID>
+			<SourceID>TIMBER_HEARTH_FISH</SourceID>
+			<RumorName>Fishing Spot?</RumorName>
+			<Text>Spinel wants me to fish somewhere near the Waterfall in the Village.</Text>
+		</RumorFact>
+
+		<ExploreFact>
+			<ID>WATERFALL_FISHING_SPOT_FACT</ID>
+			<Text>The Waterfall in the Village is an excellent fishing spot for beginners.</Text>
+		</ExploreFact>
+	</Entry>
+
+
+	<Entry>
+		<ID>GROVE_FISHING_SPOT</ID>
+		<Name>Grove Fishing Spot</Name>
+		<Curiosity>TIMBER_HEARTH_FISH</Curiosity>
+
+		<RumorFact>
+			<ID>GROVE_FISHING_SPOT_RUMOR</ID>
+			<SourceID>TIMBER_HEARTH_FISH</SourceID>
+			<RumorName>Fishing Spot?</RumorName>
+			<Text>Spinel's notes say there is another fishing spot near a large purple rock.</Text>
+		</RumorFact>
+
+		<ExploreFact>
+			<ID>GROVE_FISHING_SPOT_FACT</ID>
+			<Text>The Quantum Grove offers shallow waters and an intricate geyser system.</Text>
+		</ExploreFact>
+	</Entry>
+
+
+	<Entry>
+		<ID>MINE_FISHING_SPOT</ID>
+		<Name>Mine Fishing Spot</Name>
+		<Curiosity>TIMBER_HEARTH_FISH</Curiosity>
+
+		<RumorFact>
+			<ID>MINE_FISHING_SPOT_RUMOR</ID>
+			<SourceID>TIMBER_HEARTH_FISH</SourceID>
+			<RumorName>Fishing Spot?</RumorName>
+			<Text>Spinel's notes say there is another fishing spot in a dark cave.</Text>
+		</RumorFact>
+
+		<ExploreFact>
+			<ID>MINE_FISHING_SPOT_FACT</ID>
+			<Text>The Nomai Mines has a water resevoir filled with strange fish.</Text>
+		</ExploreFact>
+	</Entry>
+
+
+</AstroObjectEntry>

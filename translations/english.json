@@ -1,0 +1,138 @@
+{
+	"$schema": "https://raw.githubusercontent.com/outer-wilds-new-horizons/new-horizons/main/NewHorizons/Schemas/translation_schema.json",
+	"DialogueDictionary": {
+
+
+
+		"Spinel_OPTION_FISHING": "How's the fishing?",
+		"Spinel_OPTION_BASS": "I caught a Hearthian Bass.",
+		"Spinel_OPTION_CAUGHT_ALL": "I caught all of the fish on Timber Hearth!",
+
+		"Spinel16_PAGE_1": "Bad. Very bad. I haven't even gotten a nibble. Why are the fish making this so difficult?",
+		"Spinel16_OPTION_1": "It doesn't look that hard.",
+
+		"Spinel17_PAGE_1": "IT DOESN'T LOOK THAT-",
+		"Spinel17_PAGE_2": "Ok Mister Astro-NUT, I want to watch you try fishing. See the fishing rod beside me? That's a <![CDATA[<color=orange>fishing spot</color>]]>. Use the fishing spot and see what you can catch.",
+		"Spinel17_PAGE_3": "However, before you cast your line you will need to find some <![CDATA[<color=orange>bait</color>]]>. Look around the Village and try to find something <![CDATA[<color=orange>edible</color>]]> that you think the fish will go for.",
+		"Spinel17_PAGE_4": "Then, bring the bait to your fishing rod and cast it. Finally, enjoy your catch! Some of the fish even taste good!",
+
+		"Spinel18_PAGE_1": "You caught a Hearthian Bass? Pffft, anyone can catch a Hearthian Bass. Although I am impressed with how quick you caught it. You genuinely seem interested in fishing.",
+		"Spinel18_PAGE_2": "Tell you what - I've known of several fish on Timber Hearth that I have heard about but have not been able to catch. I'll upload my notes into your <![CDATA[<color=orange>ship log</color>]]>. In exchange, I want you to find them and catch them!",
+		"Spinel18_PAGE_3": "There are <![CDATA[<color=orange>two more</color>]]> excellent fishing spots on this planet you can try. Additionally, you may be able to find <![CDATA[<color=orange>new bait</color>]]> to use. I recommend using a <![CDATA[<color=orange>backpack</color>]]> if you have one.",
+		"Spinel18_PAGE_4": "Finally, I will also <![CDATA[<color=orange>upgrade your fishing line</color>]]>. Now you can fish a little deeper at each fishing spot.",
+		"Spinel18_PAGE_5": "I think that's everything. Come back to me once you have caught <![CDATA[<color=orange>every fish on Timber Hearth</color>]]>!",
+
+		"Spinel19_PAGE_1": "What?! You caught ALL of the fish on Timber Hearth???",
+		"Spinel19_PAGE_2": "Oh, you mean all of the different species. Not literally every fish on the planet. That makes more sense.",
+		"Spinel19_PAGE_3": "Well, I'm impressed. You have shown your patience and persistence to catching and cataloguing all of these species. I appreciate it.",
+		"Spinel19_PAGE_4": "If this mod wasn't a demo, I would give you another upgrade and tell you where to go next. But since it is, I think a more condensed and cliche phrase is in order...",
+		"Spinel19_PAGE_5": "<![CDATA[<color=orange>Thanks for playing!</color>]]>",
+
+
+
+		"FISHING_ROD_READY": "Your fishing rod is ready. What would you like to do?",
+		"LEAVE_IT": "Leave it there.",
+		"CAST_IT": "Cast!",
+		"TOO_SHORT": "Your line is too short and catches nothing.",
+		"TOO_LONG": "Your lines is too long and catches nothing.",
+		"CAUGHT_NOTHING": "Not even a nibble...",
+
+		"CAST_1_METER": "Cast the line at 1 meter.",
+		"CAST_5_METERS": "Cast the line at 5 meters.",
+		"CAST_20_METERS": "Cast the line at 20 meters.",
+
+		"MARSHMALLOW_BAIT": "Bait the line with a marshmallow.",
+		"BAITED_WITH_MARSHMALLOW": "Your fishing rod is baited with a <![CDATA[<color=orange>marshmallow</color>]]>. What would you like to do?",
+		"SAP_WINE_BAIT": "Bait the line with a little sap wine.",
+		"BAITED_WITH_SAP_WINE": "Your fishing rod is baited with a <![CDATA[<color=orange>sap wine</color>]]>. What would you like to do?",
+		"SHINY_ROCK_BAIT": "Bait the line with a shiny rock.",
+		"BAITED_WITH_SHINY_ROCK": "Your fishing rod is baited with a <![CDATA[<color=orange>shiny rock</color>]]>. What would you like to do?",
+
+		"HEARTHIAN_BASS_CATCH": "You caught a <![CDATA[<color=orange>Hearthian Bass</color>]]>! You remember eating a lot of these growing up. It's bland, but edible.",
+		"TIMBER_MACKEREL_CATCH": "You caught a <![CDATA[<color=orange>Timber Mackerel</color>]]>! It takes some time to chew, but it is very satisfying.",
+		"ANCESTRAL_SALMON_CATCH": "You caught an <![CDATA[<color=orange>Ancestral Salmon</color>]]>! Something about the way its four eyes look at me tells me that I shouldn't eat this.",
+		"PINE_MULLET_CATCH": "You caught a <![CDATA[<color=orange>Pine Mullet</color>]]>! It has a very savory taste. I would definitely eat another sometime.",
+		"WARPING_COD_CATCH": "You caught a <![CDATA[<color=orange>Warping Cod</color>]]>! You try to cut off its fins to eat it, but the fins keep disappearing and reappearing around its body. You decide to toss it back.",
+		"EERIE_EEL_CATCH": "You caught an <![CDATA[<color=orange>Eerie Eel</color>]]>! Instead of eating it, you put it in your pocket. Maybe someone else would want to eat it.",
+		"SPARKLING_STONEFISH_CATCH": "You caught a <![CDATA[<color=orange>Sparkling Stonefish</color>]]>! It crunches loudly between your teeth. You spit it out before you chip a tooth."
+
+
+
+	},
+	"ShipLogDictionary": {
+
+
+
+		"FISH_RUMOR_NAME": "Fish?",
+		"BAIT_RUMOR_NAME": "Bait?",
+
+
+
+		"HEARTHIAN_BASS_NAME": "Hearthian Bass",
+		"HEARTHIAN_BASS_RUMOR_TEXT": "Spinel wants me to catch a fish at the Waterfall. This fish is very common and likes sugary bait.",
+		"HEARTHIAN_BASS_CAUGHT_FACT_TEXT": "The Hearthian Bass is a very common fish on Timber Hearth and can be found anywhere.",
+		"HEARTHIAN_BASS_STATS_FACT_TEXT": "<![CDATA[<color=green>Can be caught anywhere on Timber Hearth using Marshmallows.</color>]]>",
+
+		"TIMBER_MACKEREL_NAME": "Timber Mackerel",
+		"TIMBER_MACKEREL_RUMOR_TEXT": "This fish prefers trees and sappy bait.",
+		"TIMBER_MACKEREL_CAUGHT_FACT_TEXT": "The Timber Mackerel hangs out around wooded areas. Some Hearthians have reported seeing it spawn from the trees themselves.",
+		"TIMBER_MACKEREL_STATS_FACT_TEXT": "<![CDATA[<color=green>Can be caught at the Waterfall using Sap Wine.</color>]]>",
+
+		"ANCESTRAL_SALMON_NAME": "Ancestral Salmon",
+		"ANCESTRAL_SALMON_RUMOR_TEXT": "This fish and I live in the same place and we are both attracted to bright lights.",
+		"ANCESTRAL_SALMON_CAUGHT_FACT_TEXT": "Something about this fish looks very familiar. Are the nubs on the side supposed to be legs?",
+		"ANCESTRAL_SALMON_STATS_FACT_TEXT": "<![CDATA[<color=green>Can be caught at the Waterfall using Shiny Rocks.</color>]]>",
+
+		"PINE_MULLET_NAME": "Pine Mullet",
+		"PINE_MULLET_RUMOR_TEXT": "This fish prefers secluded areas and sappy bait.",
+		"PINE_MULLET_CAUGHT_FACT_TEXT": "I have always wondered where Spinel got Pine Mullets from. This fish is a delicacy in the Village.",
+		"PINE_MULLET_STATS_FACT_TEXT": "<![CDATA[<color=green>Can be caught in the Grove using Sap Wine.</color>]]>",
+
+		"WARPING_COD_NAME": "Warping Cod",
+		"WARPING_COD_RUMOR_TEXT": "This fish has fins that rearrange every time I look at it.",
+		"WARPING_COD_CAUGHT_FACT_TEXT": "Every time I look at this fish, its body parts have been rearranged. I am not sure how it does this, as its body is clearly a solid. Of note, my signalscope is not detecting any signals from this fish.",
+		"WARPING_COD_STATS_FACT_TEXT": "<![CDATA[<color=green>Can be caught in the Grove using Marshmallows.</color>]]>",
+
+		"EERIE_EEL_NAME": "Eerie Eel",
+		"EERIE_EEL_RUMOR_TEXT": "This fish feeds off of a fluid that seeps through roots deep in the ground.",
+		"EERIE_EEL_CAUGHT_FACT_TEXT": "Touching an Eerie Eel makes my ears perk up. It has clearly been storing up static electricity for quite some time.",
+		"EERIE_EEL_STATS_FACT_TEXT": "<![CDATA[<color=green>Can be caught in the Mine using Sap Wine.</color>]]>",
+
+		"SPARKLING_STONEFISH_NAME": "Sparkling Stonefish",
+		"SPARKLING_STONEFISH_RUMOR_TEXT": "This fish only eats a certain food found underground.",
+		"SPARKLING_STONEFISH_CAUGHT_FACT_TEXT": "This stonefish looks exactly like the rocks that it eats! ",
+		"SPARKLING_STONEFISH_STATS_FACT_TEXT": "<![CDATA[<color=green>Can be caught in the Mine using Shiny Rocks.</color>]]>"
+
+
+
+	},
+	"UIDictionary": {
+
+
+
+		"MAIN_MENU_POPUP": "Thank you for downloading Hearthian Fishing! Talk to Spinel if you're interested in learning how to fish. (This mod is also compatible with Achievements+.)"
+
+
+
+	},
+	"AchievementTranslations": {
+
+
+
+		"HF_OBTAIN_FISHING_ROD": {
+			"Name": "Hearthians Want Me",
+			"Description": "Learn about fishing from Spinel."
+		},
+		"HF_CATCH_BASS": {
+			"Name": "Fish Fear Me",
+			"Description": "Catch your first fish!"
+		},
+		"HF_TH_ANGLER": {
+			"Name": "Timber Hearth Angler",
+			"Description": "Catch every fish on Timber Hearth."
+		}
+
+
+
+	}
+}

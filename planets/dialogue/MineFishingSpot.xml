@@ -1,0 +1,156 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
+
+	<NameField>SIGN</NameField>
+
+
+	<DialogueNode>
+		<Name>START</Name>
+		<EntryCondition>DEFAULT</EntryCondition>
+		<Dialogue>
+			<Page>FISHING_ROD_READY</Page>
+		</Dialogue>
+		<DialogueOptionsList>
+			<DialogueOption>
+				<RequiredCondition>HOLDING_MARSHMALLOW_BAIT</RequiredCondition>
+				<Text>MARSHMALLOW_BAIT</Text>
+				<DialogueTarget>BAIT_01</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<RequiredCondition>HOLDING_SAP_WINE_BAIT</RequiredCondition>
+				<Text>SAP_WINE_BAIT</Text>
+				<DialogueTarget>BAIT_02</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<RequiredCondition>HOLDING_SHINY_ROCK_BAIT</RequiredCondition>
+				<Text>SHINY_ROCK_BAIT</Text>
+				<DialogueTarget>BAIT_03</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>LEAVE_IT</Text>
+			</DialogueOption>
+		</DialogueOptionsList>
+		<RevealFacts>
+			<FactID>MINE_FISHING_SPOT_FACT</FactID>
+		</RevealFacts>
+	</DialogueNode>
+
+
+	<DialogueNode>
+		<Name>BAIT_01</Name>
+		<Dialogue>
+			<Page>BAITED_WITH_MARSHMALLOW</Page>
+		</Dialogue>
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>CAST_1_METER</Text>
+				<DialogueTarget>SHORT</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<RequiredLogCondition>LINE_UPGRADE_FACT</RequiredLogCondition>
+				<Text>CAST_5_METERS</Text>
+				<DialogueTarget>HEARTHIAN_BASS</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>LEAVE_IT</Text>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+
+
+	<DialogueNode>
+		<Name>BAIT_02</Name>
+		<Dialogue>
+			<Page>BAITED_WITH_SAP_WINE</Page>
+		</Dialogue>
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>CAST_1_METER</Text>
+				<DialogueTarget>SHORT</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<RequiredLogCondition>LINE_UPGRADE_FACT</RequiredLogCondition>
+				<Text>CAST_5_METERS</Text>
+				<DialogueTarget>EERIE_EEL</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>LEAVE_IT</Text>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+
+
+	<DialogueNode>
+		<Name>BAIT_03</Name>
+		<Dialogue>
+			<Page>BAITED_WITH_SHINY_ROCK</Page>
+		</Dialogue>
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>CAST_1_METER</Text>
+				<DialogueTarget>SHORT</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<RequiredLogCondition>LINE_UPGRADE_FACT</RequiredLogCondition>
+				<Text>CAST_5_METERS</Text>
+				<DialogueTarget>SPARKLING_STONEFISH</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>LEAVE_IT</Text>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+
+
+	<DialogueNode>
+		<Name>HEARTHIAN_BASS</Name>
+		<Dialogue>
+			<Page>HEARTHIAN_BASS_CATCH</Page>
+		</Dialogue>
+		<RevealFacts>
+			<FactID>HEARTHIAN_BASS_CAUGHT_FACT</FactID>
+			<FactID>HEARTHIAN_BASS_STATS_FACT</FactID>
+		</RevealFacts>
+	</DialogueNode>
+	<DialogueNode>
+		<Name>EERIE_EEL</Name>
+		<Dialogue>
+			<Page>EERIE_EEL_CATCH</Page>
+		</Dialogue>
+		<RevealFacts>
+			<FactID>EERIE_EEL_CAUGHT_FACT</FactID>
+			<FactID>EERIE_EEL_STATS_FACT</FactID>
+		</RevealFacts>
+	</DialogueNode>
+	<DialogueNode>
+		<Name>SPARKLING_STONEFISH</Name>
+		<Dialogue>
+			<Page>SPARKLING_STONEFISH_CATCH</Page>
+		</Dialogue>
+		<RevealFacts>
+			<FactID>SPARKLING_STONEFISH_CAUGHT_FACT</FactID>
+			<FactID>SPARKLING_STONEFISH_STATS_FACT</FactID>
+		</RevealFacts>
+	</DialogueNode>
+
+
+	<DialogueNode>
+		<Name>NOTHING</Name>
+		<Dialogue>
+			<Page>CAUGHT_NOTHING</Page>
+		</Dialogue>
+	</DialogueNode>
+	<DialogueNode>
+		<Name>LONG</Name>
+		<Dialogue>
+			<Page>TOO_LONG</Page>
+		</Dialogue>
+	</DialogueNode>
+	<DialogueNode>
+		<Name>SHORT</Name>
+		<Dialogue>
+			<Page>TOO_SHORT</Page>
+		</Dialogue>
+	</DialogueNode>
+
+
+</DialogueTree>

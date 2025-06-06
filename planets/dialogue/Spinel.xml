@@ -1,0 +1,192 @@
+﻿<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
+
+	<NameField>Spinel</NameField>
+
+
+	<DialogueNode>
+		<Name>Spinel1</Name>
+		<EntryCondition>DEFAULT</EntryCondition>
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>Spinel_OPTION_FISHING</Text>
+				<DialogueTarget>Spinel16</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>Spinel_OPTION_BASS</Text>
+				<DialogueTarget>Spinel18</DialogueTarget>
+				<RequiredLogCondition>HEARTHIAN_BASS_CAUGHT_FACT</RequiredLogCondition>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>Spinel_OPTION_CAUGHT_ALL</Text>
+				<DialogueTarget>Spinel19</DialogueTarget>
+				<RequiredLogCondition>HEARTHIAN_BASS_CAUGHT_FACT</RequiredLogCondition>
+				<RequiredLogCondition>TIMBER_MACKEREL_CAUGHT_FACT</RequiredLogCondition>
+				<RequiredLogCondition>ANCESTRAL_SALMON_CAUGHT_FACT</RequiredLogCondition>
+				<RequiredLogCondition>PINE_MULLET_CAUGHT_FACT</RequiredLogCondition>
+				<RequiredLogCondition>WARPING_COD_CAUGHT_FACT</RequiredLogCondition>
+				<RequiredLogCondition>EERIE_EEL_CAUGHT_FACT</RequiredLogCondition>
+				<RequiredLogCondition>SPARKLING_STONEFISH_CAUGHT_FACT</RequiredLogCondition>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+
+
+	<DialogueNode>
+		<Name>Spinel11</Name>
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>Spinel_OPTION_FISHING</Text>
+				<DialogueTarget>Spinel16</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>Spinel_OPTION_BASS</Text>
+				<DialogueTarget>Spinel18</DialogueTarget>
+				<RequiredLogCondition>HEARTHIAN_BASS_CAUGHT_FACT</RequiredLogCondition>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>Spinel_OPTION_CAUGHT_ALL</Text>
+				<DialogueTarget>Spinel19</DialogueTarget>
+				<RequiredLogCondition>HEARTHIAN_BASS_CAUGHT_FACT</RequiredLogCondition>
+				<RequiredLogCondition>TIMBER_MACKEREL_CAUGHT_FACT</RequiredLogCondition>
+				<RequiredLogCondition>ANCESTRAL_SALMON_CAUGHT_FACT</RequiredLogCondition>
+				<RequiredLogCondition>PINE_MULLET_CAUGHT_FACT</RequiredLogCondition>
+				<RequiredLogCondition>WARPING_COD_CAUGHT_FACT</RequiredLogCondition>
+				<RequiredLogCondition>EERIE_EEL_CAUGHT_FACT</RequiredLogCondition>
+				<RequiredLogCondition>SPARKLING_STONEFISH_CAUGHT_FACT</RequiredLogCondition>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+
+
+	<DialogueNode>
+		<Name>Spinel14</Name>
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>Spinel_OPTION_FISHING</Text>
+				<DialogueTarget>Spinel16</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>Spinel_OPTION_BASS</Text>
+				<DialogueTarget>Spinel18</DialogueTarget>
+				<RequiredLogCondition>HEARTHIAN_BASS_CAUGHT_FACT</RequiredLogCondition>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>Spinel_OPTION_CAUGHT_ALL</Text>
+				<DialogueTarget>Spinel19</DialogueTarget>
+				<RequiredLogCondition>HEARTHIAN_BASS_CAUGHT_FACT</RequiredLogCondition>
+				<RequiredLogCondition>TIMBER_MACKEREL_CAUGHT_FACT</RequiredLogCondition>
+				<RequiredLogCondition>ANCESTRAL_SALMON_CAUGHT_FACT</RequiredLogCondition>
+				<RequiredLogCondition>PINE_MULLET_CAUGHT_FACT</RequiredLogCondition>
+				<RequiredLogCondition>WARPING_COD_CAUGHT_FACT</RequiredLogCondition>
+				<RequiredLogCondition>EERIE_EEL_CAUGHT_FACT</RequiredLogCondition>
+				<RequiredLogCondition>SPARKLING_STONEFISH_CAUGHT_FACT</RequiredLogCondition>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+
+
+	<DialogueNode>
+		<Name>Spinel15</Name>
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>Spinel_OPTION_FISHING</Text>
+				<DialogueTarget>Spinel16</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>Spinel_OPTION_BASS</Text>
+				<DialogueTarget>Spinel18</DialogueTarget>
+				<RequiredLogCondition>HEARTHIAN_BASS_CAUGHT_FACT</RequiredLogCondition>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>Spinel_OPTION_CAUGHT_ALL</Text>
+				<DialogueTarget>Spinel19</DialogueTarget>
+				<RequiredLogCondition>HEARTHIAN_BASS_CAUGHT_FACT</RequiredLogCondition>
+				<RequiredLogCondition>TIMBER_MACKEREL_CAUGHT_FACT</RequiredLogCondition>
+				<RequiredLogCondition>ANCESTRAL_SALMON_CAUGHT_FACT</RequiredLogCondition>
+				<RequiredLogCondition>PINE_MULLET_CAUGHT_FACT</RequiredLogCondition>
+				<RequiredLogCondition>WARPING_COD_CAUGHT_FACT</RequiredLogCondition>
+				<RequiredLogCondition>EERIE_EEL_CAUGHT_FACT</RequiredLogCondition>
+				<RequiredLogCondition>SPARKLING_STONEFISH_CAUGHT_FACT</RequiredLogCondition>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+
+
+	<DialogueNode>
+		<Name>Spinel16</Name>
+		<Dialogue>
+			<Page>Spinel16_PAGE_1</Page>
+		</Dialogue>
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>Spinel16_OPTION_1</Text>
+				<DialogueTarget>Spinel17</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+		<SetCondition>SpinelFishing</SetCondition>
+	</DialogueNode>
+
+
+	<DialogueNode>
+		<Name>Spinel17</Name>
+		<Dialogue>
+			<Page>Spinel17_PAGE_1</Page>
+			<Page>Spinel17_PAGE_2</Page>
+			<Page>Spinel17_PAGE_3</Page>
+			<Page>Spinel17_PAGE_4</Page>
+		</Dialogue>
+		<RevealFacts>
+			<FactID>SPINEL_ADVENTURE_FACT_ONE</FactID>
+			<FactID>SPINEL_ADVENTURE_FACT_TWO</FactID>
+			<FactID>SPINEL_ADVENTURE_FACT_THREE</FactID>
+			<FactID>SPINEL_ADVENTURE_FACT_FOUR</FactID>
+			<FactID>MARSHMALLOW_BAIT_RUMOR</FactID>
+			<FactID>TH_FISHING_RUMOR</FactID>
+			<FactID>HEARTHIAN_BASS_RUMOR</FactID>
+			<FactID>WATERFALL_FISHING_SPOT_RUMOR</FactID>
+		</RevealFacts>
+	</DialogueNode>
+
+
+	<DialogueNode>
+		<Name>Spinel18</Name>
+		<Dialogue>
+			<Page>Spinel18_PAGE_1</Page>
+			<Page>Spinel18_PAGE_2</Page>
+			<Page>Spinel18_PAGE_3</Page>
+			<Page>Spinel18_PAGE_4</Page>
+			<Page>Spinel18_PAGE_5</Page>
+		</Dialogue>
+		<RevealFacts>
+			<FactID>TH_FISHING_FACT</FactID>
+			<FactID>LINE_UPGRADE_FACT</FactID>
+			<FactID>SAP_WINE_BAIT_RUMOR</FactID>
+			<FactID>SHINY_ROCK_BAIT_RUMOR</FactID>
+			<FactID>GROVE_FISHING_SPOT_RUMOR</FactID>
+			<FactID>MINE_FISHING_SPOT_RUMOR</FactID>
+			<FactID>TIMBER_MACKEREL_RUMOR</FactID>
+			<FactID>ANCESTRAL_SALMON_RUMOR</FactID>
+			<FactID>PINE_MULLET_RUMOR</FactID>
+			<FactID>WARPING_COD_RUMOR</FactID>
+			<FactID>EERIE_EEL_RUMOR</FactID>
+			<FactID>SPARKLING_STONEFISH_RUMOR</FactID>
+		</RevealFacts>
+	</DialogueNode>
+
+
+	<DialogueNode>
+		<Name>Spinel19</Name>
+		<Dialogue>
+			<Page>Spinel19_PAGE_1</Page>
+			<Page>Spinel19_PAGE_2</Page>
+			<Page>Spinel19_PAGE_3</Page>
+			<Page>Spinel19_PAGE_4</Page>
+			<Page>Spinel19_PAGE_5</Page>
+		</Dialogue>
+		<RevealFacts>
+			<FactID>SPINEL_ADVENTURE_FACT_QUEST</FactID>
+		</RevealFacts>
+	</DialogueNode>
+	
+
+</DialogueTree>
