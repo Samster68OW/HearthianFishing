@@ -4,113 +4,113 @@
         {
             "id": "SPINEL_FISHING_ADVENTURE",
             "position": {
-                "x": 4000,
-                "y": 1000
+                "x": 4500,
+                "y": 2500
             }
         },
         {
             "id": "LINE_UPGRADE",
             "position": {
-                "x": 3900,
-                "y": 850
+                "x": 4400,
+                "y": 2350
             }
         },
         {
             "id": "MARSHMALLOW_BAIT",
             "position": {
-                "x": 4250,
-                "y": 1000
+                "x": 4700,
+                "y": 2500
             }
         },
         {
             "id": "SAP_WINE_BAIT",
             "position": {
-                "x": 4400,
-                "y": 1000
+                "x": 4900,
+                "y": 2500
             }
         },
         {
             "id": "SHINY_ROCK_BAIT",
             "position": {
-                "x": 4550,
-                "y": 1000
+                "x": 5100,
+                "y": 2500
             }
         },
         {
             "id": "TIMBER_HEARTH_FISH",
             "position": {
-                "x": 4000,
-                "y": 500
+                "x": 4500,
+                "y": 2000
             }
         },
         {
             "id": "HEARTHIAN_BASS",
             "position": {
-                "x": 3900,
-                "y": 250
+                "x": 4400,
+                "y": 1750
             }
         },
         {
             "id": "TIMBER_MACKEREL",
             "position": {
-                "x": 4000,
-                "y": 250
+                "x": 4500,
+                "y": 1750
             }
         },
         {
             "id": "ANCESTRAL_SALMON",
             "position": {
-                "x": 4100,
-                "y": 250
+                "x": 4600,
+                "y": 1750
             }
         },
         {
             "id": "PINE_MULLET",
             "position": {
-                "x": 3850,
-                "y": 100
+                "x": 4350,
+                "y": 1600
             }
         },
         {
             "id": "WARPING_COD",
             "position": {
-                "x": 3950,
-                "y": 100
+                "x": 4450,
+                "y": 1600
             }
         },
         {
             "id": "EERIE_EEL",
             "position": {
-                "x": 4050,
-                "y": 100
+                "x": 4550,
+                "y": 1600
             }
         },
         {
             "id": "SPARKLING_STONEFISH",
             "position": {
-                "x": 4150,
-                "y": 100
+                "x": 4650,
+                "y": 1600
             }
         },
         {
             "id": "WATERFALL_FISHING_SPOT",
             "position": {
-                "x": 4250,
-                "y": 500
+                "x": 4700,
+                "y": 2000
             }
         },
         {
             "id": "GROVE_FISHING_SPOT",
             "position": {
-                "x": 4400,
-                "y": 500
+                "x": 4900,
+                "y": 2000
             }
         },
         {
             "id": "MINE_FISHING_SPOT",
             "position": {
-                "x": 4550,
-                "y": 500
+                "x": 5100,
+                "y": 2000
             }
         }
     ],
