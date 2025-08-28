@@ -1,3 +1,4 @@
+<img width="3000" height="1000" alt="image" src="https://github.com/user-attachments/assets/bf9dd0a5-c52e-475f-b562-964e74f67540" />
 # Hearthian Fishing
 Do you ever have a terrible idea that you just can't shake? As in, you know it will be dumb and silly, but you just have to see it through? That's Hearthian Fishing. Help Spinel catalog fish on Timber Hearth!
 
@@ -13,6 +14,7 @@ If you record/stream yourself playing this mod, we would love to see it! You can
 
 # Credits
 - Samster68: Mod Author
+- Solec: Probably'll do stuff in the future (and released the mod)
 
 # Disclaimer
 This work is unofficial fan content created under permission from the Mobius Digital Fan Content Policy.
