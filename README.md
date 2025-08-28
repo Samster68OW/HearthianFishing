@@ -13,6 +13,7 @@ If you record/stream yourself playing this mod, we would love to see it! You can
 
 # Credits
 - Samster68: Mod Author
+- Solec: Probably'll do stuff in the future (and released the mod)
 
 # Disclaimer
 This work is unofficial fan content created under permission from the Mobius Digital Fan Content Policy.
